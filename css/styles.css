@@ -568,3 +568,71 @@ footer {
 .text-soc-media {
   margin-bottom: 16px;
 }
+
+.subscribe-area {
+  display: flex;
+  margin-left: 80px;
+  flex-direction: column;
+}
+
+.form-footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.subscribe-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.footer-email-input {
+  width: 264px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background: #2e2f42;
+  margin-right: 24px;
+}
+.footer-email-input::placeholder {
+  padding-left: 16px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.48px;
+}
+
+.button-subscribe-footer {
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  padding: 8px 24px;
+  gap: 16px;
+  border-radius: 4px;
+  border: 0px;
+  background: #4d5ae5;
+  cursor: pointer;
+}
+
+.button-subscribe-footer:focus,
+.button-subscribe-footer:hover {
+  background-color: #404bbf;
+}
+
+.inside-subscribe-button {
+}
+.txt-btn {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
