@@ -791,10 +791,10 @@ border-color: #4d5ae5;
 }
 
 
-textarea {
+.textarea {
   resize: none;
   margin-bottom: 16px;
-  
+
 }
 
 .textarea-description {
