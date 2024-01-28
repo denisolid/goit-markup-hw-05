@@ -580,6 +580,7 @@ footer {
 .form-footer {
   display: flex;
   flex-direction: row;
+  gap: 24px;;
 }
 
 .subscribe-text {
@@ -617,6 +618,10 @@ footer {
   display: inline-flex;
   padding: 8px 24px;
   gap: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
   border-radius: 4px;
   border: 0px;
   background: #4d5ae5;
@@ -629,14 +634,6 @@ footer {
   background-color: #404bbf;
 }
 
-.txt-btn {
-  color: #fff;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.64px;
-}
 
 .modal-bg {
 z-index: 5;
