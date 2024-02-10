@@ -624,7 +624,7 @@ footer {
   justify-content: center;
   display: inline-flex;
   padding: 8px 24px;
-  gap: 16px;
+  
   min-width: 165px;
   font-weight: 500;
   line-height: 1.5;
